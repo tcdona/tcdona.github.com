@@ -1,0 +1,12 @@
+# Where things are
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+
+# Handling Reading
+encoding:     "utf-8"
+markdown_ext: "md"
+
+# Serving
+baseurl:     /tcdona.github.com
