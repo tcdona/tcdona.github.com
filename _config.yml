@@ -10,3 +10,11 @@ markdown_ext: "md"
 
 # Serving
 baseurl:     /tcdona.github.com
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "posts"
